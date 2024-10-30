@@ -1,0 +1,11 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ div#laup {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.laup_adminbar{
+	margin-top: 32px;
+}

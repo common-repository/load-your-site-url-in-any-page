@@ -1,0 +1,28 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#tabs > ul { display: none; }
+#tabs ul.ui-tabs-nav{border-bottom: 1px solid #ccc; margin: 0 0 20px 0; padding-top: 9px; padding-bottom: 0; line-height: inherit;width: 100%; display: inline-block !important;}
+ul.ui-tabs-nav li { margin: 0; }  
+ul.ui-tabs-nav li.ui-tabs-active, .ui-tabs-active:focus, .ui-tabs-active:focus:active, .ui-tabs-active:hover:hover{border:none;}
+ul.ui-tabs-nav li.ui-state-active span.dashicons{color:#0073aa;}
+ul.ui-tabs-nav li a{ float: left; border: 1px solid #ccc; border-bottom: none; margin-left: .5em; padding: 5px 10px; font-size: 14px;
+line-height: 24px; background: #e5e5e5; color: #555; text-decoration: none; white-space: nowrap; font-weight: 600; outline: none; }
+.laup_main a:focus, .laup_main a:active, .laup_main a:hover{outline: none;box-shadow:none !important;}
+.laup_tab-wrapper { float: left; clear: both; width: 100%; padding-bottom: 12px; border-bottom: 1px solid #ccc; margin-bottom: 15px; }
+ul.ui-tabs-active, .ui-tabs-active:focus, .ui-tabs-active:focus:active, .ui-tabs-active:hover { border-bottom: 1px solid #f1f1f1; background: #f1f1f1; color: #000; }
+.ui-tabs-nav li a:focus, .ui-tabs-nav li a:hover {
+    background-color: #fff;    
+    box-shadow: none;
+}
+ul.ui-tabs-nav .ui-tabs-active a, ul.ui-tabs-nav .ui-tabs-active a:focus, ul.ui-tabs-nav .ui-tabs-active a:focus:active, ul.ui-tabs-nav .ui-tabs-active a:hover {
+    border-bottom: 1px solid #f1f1f1;
+    background: #f1f1f1;
+    color: #000;
+}
+ul.ui-tabs-nav .ui-tabs-active a {
+    margin-bottom: -1px;     
+}	
+.ui-tabs-anchor .dashicons{line-height: 24px};
